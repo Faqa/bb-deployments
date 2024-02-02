@@ -57,6 +57,7 @@ spec:
     spec:
       accessModes:
       - ReadWriteOnce
+      storageClassName: gp3-retain
       resources:
         requests:
           storage: 33Gi
@@ -65,6 +66,7 @@ spec:
     spec:
       accessModes:
       - ReadWriteOnce
+      storageClassName: gp3-retain
       resources:
         requests:
           storage: 1Gi
