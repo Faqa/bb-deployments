@@ -45,6 +45,8 @@ metadata:
     service.beta.kubernetes.io/aws-load-balancer-subnets: subnet-040eacdd5638c972d, subnet-038260606248807dc
     service.beta.kubernetes.io/aws-load-balancer-nlb-target-type: ip
     service.beta.kubernetes.io/aws-load-balancer-scheme: internet-facing
+    service.beta.kubernetes.io/aws-load-balancer-additional-resource-tags: gradle-application=ge-bazel-dogfooding,gradle-cost-center=2210,gradle-owner=ge-bazel-team,gradle-environment=Development,gradle-tagging-version=2,gradle-iac-tool=k8s
+    service.beta.kubernetes.io/aws-load-balancer-name: DEV-buildbarn-ELB
   name: frontend
   namespace: buildbarn
 spec:
